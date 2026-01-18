@@ -1,6 +1,6 @@
 # MPA Starter Template
 
-This template is used for building multi-page applications (MPAs) with modern tools.
+This [template](https://github.com/timur-iliyev/mpa-starter-template) is used for building multi-page applications (MPAs) with modern tools.
 
 Built on the [Minista](https://minista.qranoko.jp/) static site generator framework with a **Desktop-First** responsive design approach.
 
