@@ -1,7 +1,7 @@
 {
 	"name": "create-mpa",
 	"version": "1.0.0",
-	"description": "JSX MPA app template",
+	"description": "CLI to scaffold multi-page JSX apps",
 	"keywords": [
 		"create",
 		"mpa",
@@ -10,10 +10,13 @@
 		"frontend",
 		"javascript",
 		"jsx",
+		"minista",
+		"react",
 		"vite",
 		"scss",
 		"cli",
-		"boilerplate"
+		"boilerplate",
+		"components"
 	],
 	"homepage": "https://github.com/timur-iliyev/create-mpa#readme",
 	"bugs": {
@@ -40,8 +43,6 @@
 	},
 	"dependencies": {
 		"degit": "^2.8.4",
-		"execa": "^9.6.0",
-		"minimist": "^1.2.8",
 		"prompts": "^2.4.2"
 	}
 }
