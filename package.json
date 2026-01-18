@@ -1,0 +1,47 @@
+{
+	"name": "create-mpa",
+	"version": "1.0.0",
+	"description": "JSX MPA app template",
+	"keywords": [
+		"create",
+		"mpa",
+		"starter",
+		"template",
+		"frontend",
+		"javascript",
+		"jsx",
+		"vite",
+		"scss",
+		"cli",
+		"boilerplate"
+	],
+	"homepage": "https://github.com/timur-iliyev/create-mpa#readme",
+	"bugs": {
+		"url": "https://github.com/timur-iliyev/create-mpa/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/timur-iliyev/create-mpa.git"
+	},
+	"license": "MIT",
+	"author": "Timur Iliyev",
+	"type": "module",
+	"main": "index.js",
+	"bin": {
+		"create-mpa": "index.js"
+	},
+	"scripts": {
+		"publish:latest": "npm version patch && npm publish",
+		"publish:latest:minor": "npm version minor && npm publish",
+		"publish:latest:major": "npm version major && npm publish"
+	},
+	"engines": {
+		"node": ">=16.0.0"
+	},
+	"dependencies": {
+		"degit": "^2.8.4",
+		"execa": "^9.6.0",
+		"minimist": "^1.2.8",
+		"prompts": "^2.4.2"
+	}
+}
